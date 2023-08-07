@@ -61,5 +61,5 @@ if __name__ == "__main__":
             databricksInstance=os.environ['DATABRICKS_INSTANCE'], 
             bearerToken=os.environ['DATABRICKS_AAD_TOKEN'], 
             managementToken=os.environ['DATABRICKS_MANAGEMENT_TOKEN'], 
-            githubToken=['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'], 
+            githubToken='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', 
             environment=os.environ['ENVIRONMENT'])       
